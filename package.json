@@ -5,7 +5,8 @@
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"mkdir": "mkdir -p '/Users/zhaihao/Library/Mobile Documents/iCloud~md~obsidian/Documents/ORISON/.obsidian/plugins/open-in-new-tab'",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && cp main.js manifest.json '/Users/zhaihao/Library/Mobile Documents/iCloud~md~obsidian/Documents/ORISON/.obsidian/plugins/open-in-new-tab'",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
 	"keywords": [],

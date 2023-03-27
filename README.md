@@ -1,5 +1,9 @@
 # Obsidian Open In New Tab Plugin
 
+```bash
+git remote add upstream git@github.com:patleeman/obsidian-open-in-new-tab.git
+```
+
 This plugin does two things:
 
 1. In File Explorer, open all documents in a new tab.
